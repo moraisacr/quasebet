@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recarga - Quase Bet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Quase Bet <span class="logo">171</span></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="apostas.html">Apostas</a></li>
+                <li><a href="promocoes.html">Promoções</a></li>
+                <li><a href="suporte.html">Suporte</a></li>
+                <li><a href="recarga.html">Recarga</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="recarga-section">
+            <h2>Fazer Recarga</h2>
+            <img src="recarga.jpg" alt="Imagem de Recarga" class="recarga-img">
+
+            <p>Adicione saldo à sua conta para continuar apostando.</p>
+
+            <label for="valorRecarga">Valor da recarga (mínimo R$10):</label>
+            <input type="number" id="valorRecarga" min="10" placeholder="Digite o valor">
+
+            <label for="metodoPagamento">Escolha o método de pagamento:</label>
+            <select id="metodoPagamento">
+                <option value="pix">PIX</option>
+                <option value="cartao">Cartão de Crédito</option>
+                <option value="boleto">Boleto Bancário</option>
+            </select>
+
+            <button onclick="realizarRecarga()">Confirmar Recarga</button>
+
+            <p id="recargaMensagem"></p>
+            <p><strong>Seu saldo atual:</strong> <span id="saldoUsuario">R$0,00</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2

@@ -94,3 +94,58 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.recarga-section {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 400px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.5);
+    text-align: center;
+}
+
+label, select, input {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00ffcc;
+    color: #121212;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #00cc99;
+}
+
+#recargaMensagem {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#saldoUsuario {
+    font-size: 1.2em;
+    color: #ffd700;
+}
+
+
+
+.recarga-img {
+    width: 50%; /* Ocupa toda a 
+    max-width: 400px; /* Limita o tamanho máximo */
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+}

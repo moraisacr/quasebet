@@ -1,5 +1,5 @@
 body {
-    
+    background:  #000000;
     background-size: cover; /* Faz a imagem ocupar toda a tela */
     background-position: center;
     background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */

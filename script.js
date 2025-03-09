@@ -15,10 +15,10 @@ function placeBet() {
 
     if (betWon) {
         let winnings = (betAmount * 2).toFixed(2);
-        resultText.innerHTML = `VOCE QUASE GANHOU (${team}) ganhou no ${sport}! VOCE QUASE GANHOU $${winnings}.`;
+        resultText.innerHTML = `VOCE QUASE GANHOU. QUASE GANHOU $${winnings}.`;
         resultText.style.color = "#00ffcc";
     } else {
-        resultText.innerHTML = `VOCE QUASE GANHOU! O time (${team}) perdeu no ${sport}. Tente novamente!`;
+        resultText.innerHTML = `VOCE QUASE GANHOU! Tente novamente!`;
         resultText.style.color = "#ff0000";
     }
 }
